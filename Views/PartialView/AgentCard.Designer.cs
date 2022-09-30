@@ -42,7 +42,7 @@
             // 
             this.PercentLbl.AutoSize = true;
             this.PercentLbl.Font = new System.Drawing.Font("Comic Sans MS", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.PercentLbl.Location = new System.Drawing.Point(829, 12);
+            this.PercentLbl.Location = new System.Drawing.Point(828, 10);
             this.PercentLbl.Name = "PercentLbl";
             this.PercentLbl.Size = new System.Drawing.Size(56, 30);
             this.PercentLbl.TabIndex = 11;
@@ -62,7 +62,7 @@
             // 
             this.PhoneLbl.AutoSize = true;
             this.PhoneLbl.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.PhoneLbl.Location = new System.Drawing.Point(200, 90);
+            this.PhoneLbl.Location = new System.Drawing.Point(200, 88);
             this.PhoneLbl.Name = "PhoneLbl";
             this.PhoneLbl.Size = new System.Drawing.Size(147, 26);
             this.PhoneLbl.TabIndex = 9;
@@ -82,7 +82,7 @@
             // 
             this.NameTypeAgentLbl.AutoSize = true;
             this.NameTypeAgentLbl.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.NameTypeAgentLbl.Location = new System.Drawing.Point(200, 12);
+            this.NameTypeAgentLbl.Location = new System.Drawing.Point(200, 13);
             this.NameTypeAgentLbl.Name = "NameTypeAgentLbl";
             this.NameTypeAgentLbl.Size = new System.Drawing.Size(283, 27);
             this.NameTypeAgentLbl.TabIndex = 7;
@@ -109,7 +109,7 @@
             this.Controls.Add(this.NameTypeAgentLbl);
             this.Controls.Add(this.pictureBox1);
             this.Name = "AgentCard";
-            this.Size = new System.Drawing.Size(893, 183);
+            this.Size = new System.Drawing.Size(899, 183);
             this.Load += new System.EventHandler(this.AgentCard_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

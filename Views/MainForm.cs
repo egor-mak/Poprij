@@ -16,6 +16,9 @@ namespace Poprij
 {
     public partial class MainForm : Form
     {
+        int currentPage = 0;
+        int currentSize = 10;
+
         List<Agent> agents = new List<Agent>();
         public MainForm()
         {
@@ -102,5 +105,15 @@ namespace Poprij
         {
             SortListView();
         }
+
+        private void Paging(int pagenum, int pagesize)
+        {
+            if (currentPage < 0)
+            {
+                currentPage = 0;
+                return;
+            }
+        }
+
     }
 }
